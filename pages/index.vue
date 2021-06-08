@@ -108,7 +108,7 @@ export default {
 var porfifunciona2 = new this.$scrollmagic.Scene({
       triggerElement: ".container2",
       triggerHook: 0.3, //show, then scroll 10% into  view
-      duration: "80%", //hide 10% before exiting view
+      duration: "70%", //hide 10% before exiting view
       offset: 20,
     })
       .setClassToggle(".container2", "visible") // add class to reveal
@@ -120,7 +120,7 @@ var porfifunciona2 = new this.$scrollmagic.Scene({
     var scene2 = new this.$scrollmagic.Scene({
       triggerElement: "#pinContainer3",
       triggerHook: 0.3, //show, then scroll 10% into  view
-      duration: "80%", //hide 10% before exiting view
+      duration: "70%", //hide 10% before exiting view
       offset: 20, //movetiggertocenter of element
     })
       // .setTween(".container3", 5, { opacity: "0" })

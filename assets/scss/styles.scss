@@ -26,10 +26,11 @@
 
 .black_bcground {
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 19%, rgba(0, 0, 0, 0.6685049019607843) 100%);
-    height: 65vh;
+    height: 37rem;
     width: 90%;
     margin: 12rem 6rem;
     position: fixed;
+    border-radius: 15px;
     max-width: 70rem;
 }
 
@@ -109,7 +110,7 @@
     position: fixed;
     // display: flex;
     flex-direction: row-reverse;
-    top: 47rem;
+    top: 42rem;
     left: 63rem;
     z-index: 10;
 
@@ -138,8 +139,8 @@
     background-color: rgb(0, 0, 0);
     border-radius: 15px 15px 0px 0px;
 
-    left: 5%;
-    top: 15%;
+    left: 6rem;
+    top: 8rem;
 
     .scrollMenuItem {
         font-family: 'Alegreya Sans', sans-serif;
@@ -164,6 +165,20 @@
 
     }
 
+}
+
+.other-tabs{
+    position: fixed;
+    left: 22.5rem;
+    top: 8rem;
+    display: flex;
+    .scrollMenuItem{
+        margin:0 .5rem ;
+        background-color: rgba(43, 43, 43, 0.878);
+        border-radius: 15px 15px 0px 0px;
+        width: auto;
+padding:.9rem 1rem .1rem 1rem;
+    }
 }
 
 
