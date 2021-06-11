@@ -14,22 +14,11 @@
       <div id="pinContainer" class="spacer s0"></div>
 
       <div id="animate0">
-<div class="scoll_menu">
-   
-    <h2 id="menu1" class="scrollMenuItem">Curiosity</h2>
-    <h3 id="menu2" class="scrollMenuItem">Instrumento</h3>
-    <h3 id="menu3" class="scrollMenuItem">Objetivos</h3>
+        <ScrollMenu />
 
-    <div class="other-tabs">
-      <h2 class="scrollMenuItem"> 
-        <NuxtLink class="nuxtlink" to="../pages/pagina2">Perseverance</NuxtLink>
-        </h2>
-      <h2 class="scrollMenuItem">Insight</h2>
-    </div>
-  </div>
         <div class="container1">
           <div id="animate1 ">
-            <Folder />
+            <Folder2 />
           </div>
         </div>
         <div id="endContainer1" class="spacer s0"></div>
@@ -38,7 +27,7 @@
 
         <div class="container2">
           <div id="animate2">
-            <Instrumento />
+            <Instrumento2 />
           </div>
         </div>
         <div id="endContainer2" class="spacer s0"></div>
@@ -59,17 +48,17 @@
 <script>
 import Logo from "../components/Logo";
 import Button from "../components/Button";
-import Folder from "../components/Folder";
+import Folder2 from "../components/Folder2";
 import ScrollMenu from "../components/ScrollMenu";
-import Instrumento from "../components/Instrumento";
+import Instrumento2 from "../components/Instrumento2";
 import Objetivo from "../components/Objetivo";
 
 export default {
   components: {
     Logo,
     Button,
-    Folder,
-    Instrumento,
+    Folder2,
+    Instrumento2,
     Objetivo,
     ScrollMenu,
     Button,
@@ -174,7 +163,7 @@ export default {
     filter: saturate(20%);
   }
 }
-.spacer {
+.spacer{
   height: 0;
 }
 // #pinContainer {
@@ -195,11 +184,6 @@ export default {
 // #animate1 {
 //   transition: transform 0.3s ease-out;
 // }
-.nuxtlink{
-text-decoration: none;
-font-weight: inherit;
-font-family: inherit;
-color: inherit;}
 
 .container {
   margin: 0 auto;

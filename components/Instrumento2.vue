@@ -1,7 +1,7 @@
 <template>
   <div class="folder_container">
     <div class="secondary_info">
-      <img src="../assets/img/instrumento_curiosity.png" alt="Curiosity" />
+      <img src="../assets/img/image2033.png" alt="Perseverance" />
     </div>
     <div class="main_info">
       <h1 class="mission_title">Instrumento: {{ title }}</h1>

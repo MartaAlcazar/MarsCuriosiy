@@ -1,7 +1,7 @@
 <template>
   <div class="folder_container ">
     <div class="secondary_info">
-      <img src="../assets/img/curiosity.png" alt="Curiosity" />
+      <img src="../assets/img/image6.png" alt="Perseverance" />
     </div>
     <div class="main_info">
       <h1 class="mission_title">Misión: {{ title }}</h1>
@@ -25,7 +25,7 @@ export default {
 
   data() {
     return {
-      title: "Curiosity",
+      title: "Perseverance",
       main_info:
         "La Mars Science Laboratory (abreviada MSL), conocida como Curiosity, es una misión espacial que incluye un rover de exploración marciana dirigida por la NASA. La duración prevista de la misión era de 1 año marciano (1,88 años terrestres), aunque en junio de 2020 aún sigue operativa. El control del rover se realiza desde la tierra y su velocidad es de 130 metros a la hora.",
       object: {

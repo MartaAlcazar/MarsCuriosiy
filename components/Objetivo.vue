@@ -6,7 +6,6 @@
          {{ value }}
         </li>
       </ul>
-        <div class="button_container"><Button /></div>
 
   </div>
 </template>
