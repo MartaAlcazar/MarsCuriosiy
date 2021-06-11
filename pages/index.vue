@@ -22,7 +22,7 @@
 
     <div class="other-tabs">
       <h2 class="scrollMenuItem"> 
-        <NuxtLink class="nuxtlink" to="../pages/pagina2">Perseverance</NuxtLink>
+        <NuxtLink class="nuxtlink" to="/pagina2">Perseverance</NuxtLink>
         </h2>
       <h2 class="scrollMenuItem">Insight</h2>
     </div>
